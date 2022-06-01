@@ -24,14 +24,11 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Sakura flags
-SAKURA_OFFICIAL := true
-SAKURA_MAINTAINER := Agus
-SAKURA_BUILD_TYPE=basicgapps
+# magnus flags
+MAGNUS_MAINTAINER := ArmSM
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
-TARGET_USES_BLUR := true
 
 # Device identifier
 PRODUCT_NAME := lineage_surya
